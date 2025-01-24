@@ -1,6 +1,6 @@
 # 📚 Welcome to [BBD College Papers](https://bbdcollegepapers.in)
 
-![BBD College Papers](https://via.placeholder.com/900x300.png?text=Welcome+to+BBD+College+Papers)
+![BBD College Papers](src/assets/LOGO.gif)
 
 **BBD College Papers** is your one-stop solution for accessing, uploading, and requesting question papers for exams. Whether you're a student preparing for exams or an educator looking for resources, this platform is built to help you succeed!
 
