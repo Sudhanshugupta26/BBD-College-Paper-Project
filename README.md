@@ -1,15 +1,13 @@
 # 📚 Welcome to [BBD College Papers](https://bbdcollegepapers.in)
 
-![BBD College Papers](src/assets/LOGO.gif)
-<img src="src/assets/LOGO.gif" alt="Project Logo" width="300" height="300">
-
-**BBD College Papers** is your one-stop solution for accessing, uploading, and requesting question papers for exams. Whether you're a student preparing for exams or an educator looking for resources, this platform is built to help you succeed!
+<img src="src/assets/LOGO.gif" alt="Project Logo" width="100%" height="350" >
+BBD College Papers is your one-stop solution for accessing, uploading, and requesting question papers for exams. Whether you're a student preparing for exams or an educator looking for resources, this platform is built to help you succeed!
 
 ---
 
 ## Template Used
-- **React+vite
-- **React Template
+- **React+vite**
+- **React Template**
 
 ## 🌟 Features
 
