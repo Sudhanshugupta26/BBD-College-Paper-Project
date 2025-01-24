@@ -60,8 +60,8 @@ Click the `Fork` button at the top-right corner of this repository.
 bash: ```git clone https://github.com/your-username/bbdcollegepapers.git ```
 
 ### 3. **Install Dependencies**
-bash: ```npm install ```
+```npm install ```
 
 ### 4. **Run The Project**
-bash: ```npm run dev ```
+```npm run dev ```
 
