@@ -1,0 +1,89 @@
+/* AnimatedBox.css */
+.animated-box {
+  position: relative;
+  width: 100%;   /* Full width */
+
+  max-width: 100vw; /* Ensure it doesn't exceed viewport width */
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3); /* Shadow for floating effect */
+  padding: 20px; /* Padding to create space inside */
+  overflow: hidden;
+  margin: 0 auto; /* Center the box */
+  box-sizing: border-box; /* Ensure padding is included in width/height calculations */
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center horizontally */
+}
+
+.text-content {
+  position: relative; /* Keep text at the top */
+  text-align: center; /* Center text horizontally */
+  margin-bottom: 40px; /* Space below text to avoid overlap with GIF */
+}
+
+.gif-icon {
+  width: 150px; /* Adjust the width of the GIF */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 20px; /* Space between GIF and button */
+}
+
+.animate-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  z-index: 1; /* Ensure button is on top */
+}
+
+.animate-button:hover {
+  background-color: #0056b3;
+}
+
+.button-icon {
+  width: 30px; /* Adjust the icon size as needed */
+  margin-right: 10px; /* Space between icon and text */
+  transition: transform 0.3s ease-in-out;
+}
+
+.move-icon {
+  animation: moveIcon 1s ease-in-out;
+}
+
+@keyframes moveIcon {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animate {
+  animation: showAnimation 3s ease-in-out;
+}
+
+@keyframes showAnimation {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

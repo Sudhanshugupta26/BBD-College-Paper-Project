@@ -1,0 +1,11 @@
+//remove this line and change it to netlify.toml 
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Content-Security-Policy = "default-src 'self' https://tufsfubcdnwwafefhqko.supabase.co; img-src *; script-src 'self' https://pagead2.googlesyndication.com https://www.clarity.ms https://www.googletagmanager.com https://app.socialproofy.io https://cdnjs.cloudflare.com https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline'; object-src 'none'; base-uri 'self'; frame-ancestors 'none';"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    Referrer-Policy = "no-referrer"
+    Feature-Policy = "geolocation 'none'; microphone 'none'; camera 'none';"

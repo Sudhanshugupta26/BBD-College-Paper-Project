@@ -1,0 +1,49 @@
+
+.about-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+    border-radius: 20px;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.about-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #004080;
+}
+
+.about-description {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.about-mission-title, .about-why-title {
+  font-size: 1.8rem;
+  margin-top: 25px;
+  color: #0066cc;
+}
+
+.about-why-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.about-why-list li {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.about-why-list li strong {
+  color: #004080;
+}
+h1,h2{
+    text-align: center;
+}
